@@ -1,0 +1,34 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(5,40px);
+
+}
+
+.grid-item{
+    padding: 1em;
+    border: 1px solid black;
+    text-align: center; 
+    
+
+}
+
+.number{
+    padding: 1em;
+    border: 1px solid black;
+    text-align: center; 
+    
+
+}
+
+.display{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 1em;
+    border: 1px solid black;
+    text-align: center; 
+}
+
+.grid-item:hover{
+    background-color: blanchedalmond;
+}
